@@ -1,0 +1,35 @@
+02-April-2025 21:52:16---Student: ..
+02-April-2025 21:52:16----Code compiles:PASS
+Server commands are setup correctly:
+  02-April-2025 21:52:19----Able to launch and close a server correctly:OK
+  02-April-2025 21:52:23----Server reports an error when launched without a port:OK
+  02-April-2025 21:52:27----Server shuts down after shell exits:OK
+Result:PASS
+Sample send runs:
+  02-April-2025 21:52:32----A shell can exchange a message with itself through a socket:OK
+  02-April-2025 21:52:36----Two separate shells can exchange a message:OK
+Result:PASS
+Send edge cases are handled correctly:
+  02-April-2025 21:52:40----An error when on an occupied port:OK
+  02-April-2025 21:52:44----Shell messages ignore extra spaces:OK
+  02-April-2025 21:52:48----Simple shell messages expand variables:OK
+Result:PASS
+Advanced tests:
+  02-April-2025 21:52:52----Ten separate shells can send messages:OK
+  02-April-2025 21:53:02----Pipes work while a server is running:OK
+Result:PASS
+Long client single message:
+  02-April-2025 21:53:04----A shell can exchange a message with another shell through start-client:OK
+  02-April-2025 21:53:09----A shell can exchange a message with another shell through start-client v2:OK
+Result:PASS
+Long client multiple messages:
+  02-April-2025 21:53:14----A client launched with start-client can send multiple messages:OK
+Result:PASS
+Multiple clients single message:
+  02-April-2025 21:53:24----Multiple clients single message:NOT OK -- missing client idclient 2: message1
+Result:FAIL
+Connected command:
+  02-April-2025 21:53:31----Connected command:OK
+Result:PASS
+02-April-2025 21:53:38--- Test Suites Passed 8.0/9
+02-April-2025 21:53:38 FINISHED

@@ -1,0 +1,33 @@
+06-February-2025 09:19:11---Student: ..
+06-February-2025 09:19:11----Code compiles:PASS
+Simple variables accesses:
+  06-February-2025 09:19:11----Declare and access a single variable:OK
+  06-February-2025 09:19:11----Declare and access a single variable:OK
+  06-February-2025 09:19:12----Tests for correct evaluation of variable expansions containing only intitialized variables:OK
+  06-February-2025 09:19:12----Tests for correct evaluation of variable expansions containing variables plus plaintext and uninitialized variables:OK
+Result:PASS
+Variable integration with other commands:
+  06-February-2025 09:19:13----Declare a single variable:OK
+  06-February-2025 09:19:13----Declare and access two variables:OK
+Result:PASS
+Custom variable accesses:
+  06-February-2025 09:19:14----Access variables in separate lines:OK
+  06-February-2025 09:19:14----Access variables in separate lines v2:OK
+Result:PASS
+Echo without variables displays plain text:
+  06-February-2025 09:19:15----Variables access with $ is bound to name:OK
+  06-February-2025 09:19:15----Non-existing variable displays as an empty string:OK
+Result:PASS
+Variable values can be redefined:
+  06-February-2025 09:19:16----Variable value is redefined appropriately:OK
+  06-February-2025 09:19:16----Variable value is redefined appropriately v2:OK
+Result:PASS
+Variable formatting edge cases:
+  06-February-2025 09:19:17----Variables accesses separate by the first equal:OK
+  06-February-2025 09:19:17----Variable declaration with spaces is not supported:OK
+Result:PASS
+Advanced tests:
+  06-February-2025 09:19:18----Declare and access 100 variables:OK
+Result:PASS
+06-February-2025 09:19:22--- Test Suites Passed 8.0/8.0
+06-February-2025 09:19:22 FINISHED
